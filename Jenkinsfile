@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-              sh "curl http://localhost:3000"
+              sh "curl http://localhost:3001"
               echo 'Testing..'
             }
         }
